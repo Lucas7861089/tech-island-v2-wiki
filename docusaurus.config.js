@@ -68,7 +68,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/tech-island-v2-wiki-social-card.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
