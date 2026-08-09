@@ -80,6 +80,7 @@ const config = {
         },
         items: [
           {to: '/docs', label: 'Docs', position: 'left'},
+          {to: '/docs/how-to-contribute', label: 'How to Contribute', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Lucas7861089/tech-island-v2-wiki',
@@ -147,4 +148,3 @@ const config = {
 };
 
 export default config;
-//this took me way too long. 67 (enjoy this easter egg)
