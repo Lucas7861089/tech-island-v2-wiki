@@ -18,12 +18,13 @@ Guides, tutorials, and community resources for Tech Island V2.
 
 ## Contributing
 
-1. Find the page on GitHub
-2. Click the pencil icon
-3. Make changes
-4. Click "Commit changes"
-5. Select "Create a new branch for this commit and start a pull request"
-6. Click "Propose changes" and add a description
+1. Click the page you want to edit (on GitHub)
+2. Click the pencil icon and click 'Create a new branch'
+3. Edit the page with all the changes you want to make
+4. Click 'Commit Changes'
+5. Add a commit message and click 'Propose Changes'
+6. Click 'Create Pull Request'
+7. Add a title to the pull request and click 'Create Pull Request'
 
 Maintainers review and merge if approved.
 
