@@ -11,12 +11,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Tech Island V2 Wiki',
-  tagline: 'Wiki for the roblox game Tech Island V2 (coming soon)',
+  tagline: 'Wiki for the roblox game Tech Island V2',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true,
   },
 
   // Set the production url of your site here
@@ -26,15 +26,11 @@ const config = {
   baseUrl: '/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Lucas7861089', // Usually your GitHub org/user name.
-  projectName: 'Tech Island V2 Wiki', // Usually your repo name.
+  organizationName: 'Lucas7861089',
+  projectName: 'tech-island-v2-wiki',
 
   onBrokenLinks: 'throw',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -47,10 +43,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Lucas7861089/tech-island-v2-wiki/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -58,11 +52,8 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
+            'https://github.com/Lucas7861089/tech-island-v2-wiki/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -77,28 +68,32 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Tech Island V2 Wiki',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Tech Island V2 Wiki Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          {to: '/docs', label: 'Docs', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Lucas7861089/tech-island-v2-wiki',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://discord.gg/YRFXm9qVDN',
+            label: 'Wiki Discord',
+            position: 'right',
+          },
+          {
+            href: 'https://discord.gg/JJWd6NUMhB',
+            label: 'Official Server',
             position: 'right',
           },
         ],
@@ -110,8 +105,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/',
+                label: 'Documentation',
+                to: '/docs',
               },
             ],
           },
@@ -119,16 +114,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Wiki Discord',
+                href: 'https://discord.gg/YRFXm9qVDN',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Official Tech Island Server',
+                href: 'https://discord.gg/JJWd6NUMhB',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/Lucas7861089/tech-island-v2-wiki',
               },
             ],
           },
@@ -138,10 +133,6 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
@@ -156,3 +147,4 @@ const config = {
 };
 
 export default config;
+//this took me way too long. 67 (enjoy this easter egg)
