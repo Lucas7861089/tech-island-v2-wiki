@@ -18,7 +18,9 @@ Guides, tutorials, and community resources for Tech Island V2.
 
 ## Contributing
 
-1. Click the page you want to edit (on GitHub)
+1. Click the page you want to edit on GitHub
+   - For pages, go to docs --> {target page}
+   - For styling, go to src --> {target file}
 2. Click the pencil icon and click 'Create a new branch'
 3. Edit the page with all the changes you want to make
 4. Click 'Commit Changes'
@@ -48,3 +50,9 @@ git clone https://github.com/Lucas7861089/tech-island-v2-wiki.git
 cd tech-island-v2-wiki
 npm install
 npm run start
+```
+---
+
+## License
+
+Licensed under Creative Commons Attribution 4.0 International. See [LICENSE](LICENSE) file for details.
