@@ -5,8 +5,8 @@ We welcome contributions! Here's how to help improve this wiki.
 ## Steps to Contribute
 
 1. Click the page you want to edit on [GitHub](https://github.com/Lucas7861089/tech-island-v2-wiki)
-   - For pages, go to docs --> {target page}
-   - For styling, go to src --> {target file}
+   - For pages, go to docs --> [target page]
+   - For styling, go to src --> [target file]
 2. Click the pencil icon and click 'Create a new branch'
 3. Edit the page with all the changes you want to make
 4. Click 'Commit Changes'
