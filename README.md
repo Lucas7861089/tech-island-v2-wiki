@@ -4,18 +4,19 @@ Roblox game **Tech Island V2** wiki built with [Docusaurus](https://docusaurus.i
 
 ---
 
-**Live Site**
+## Live Site
+
 https://tech-island-v2-wiki.pages.dev/
 
 ---
 
-**About**
+## About
 
 Guides, tutorials, and community resources for Tech Island V2.
 
 ---
 
-**Contributing**
+## Contributing
 
 1. Find the page on GitHub
 2. Click the pencil icon
@@ -30,14 +31,14 @@ By contributing, you agree your changes are licensed under CC BY 4.0.
 
 ---
 
-**Community**
+## Community
 
-Wiki Discord: https://discord.gg/YRFXm9qVDN
-Official Server: https://discord.gg/JJWd6NUMhB
+- Wiki Discord: https://discord.gg/YRFXm9qVDN
+- Official Server: https://discord.gg/JJWd6NUMhB
 
 ---
 
-**Local Development**
+## Local Development
 
 Node.js v18+ and npm v11+ required.
 
