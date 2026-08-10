@@ -27,6 +27,21 @@ function HomepageHeader() {
 }
 
 function Features() {
+  const cardStyle = {
+    border: '1px solid #e0e0e0',
+    borderRadius: '8px',
+    padding: '2rem',
+    marginBottom: '2rem',
+    boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+    textAlign: 'center',
+    height: '100%'
+  };
+
+  const buttonStyle = {
+    marginTop: '1rem',
+    display: 'inline-block'
+  };
+
   return (
     <section className={styles.features}>
       <div className="container">
@@ -34,20 +49,34 @@ function Features() {
           <img src="/img/logo.svg" alt="Tech Island V2 Wiki" style={{width: '150px', height: 'auto'}} />
         </div>
         <div className="row">
-          <div className="col col--4" style={{marginBottom: '2rem'}}>
-            <h3>Documentation</h3>
-            <p>Comprehensive guides and documentation for Tech Island V2. Learn everything you need to know about the game.</p>
-            <Link to="/docs/">View Docs</Link>
+          <div className="col col--4">
+            <div style={cardStyle}>
+              <h3>Documentation</h3>
+              <p>Comprehensive guides and documentation for Tech Island V2. Learn everything you need to know about the game.</p>
+              <Link className="button button--primary" to="/docs/" style={buttonStyle}>
+                View Docs
+              </Link>
+            </div>
           </div>
-          <div className="col col--4" style={{marginBottom: '2rem'}}>
-            <h3>Community</h3>
-            <p>Join our Discord communities to discuss the game, share ideas, and connect with other players.</p>
-            <Link to="https://discord.gg/YRFXm9qVDN">Wiki Discord</Link> | <Link to="https://discord.gg/JJWd6NUMhB">Official Server</Link>
+          <div className="col col--4">
+            <div style={cardStyle}>
+              <h3>Community</h3>
+              <p>Join our Discord communities to discuss the game, share ideas, and connect with other players.</p>
+              <div style={buttonStyle}>
+                <Link className="button button--primary" to="https://discord.gg/YRFXm9qVDN">
+                  Wiki Discord
+                </Link>
+              </div>
+            </div>
           </div>
-          <div className="col col--4" style={{marginBottom: '2rem'}}>
-            <h3>Contribute</h3>
-            <p>Help improve this wiki by contributing guides, tips, and documentation. Everyone's input is welcome.</p>
-            <Link to="/docs/how-to-contribute/">How to Contribute</Link>
+          <div className="col col--4">
+            <div style={cardStyle}>
+              <h3>Contribute</h3>
+              <p>Help improve this wiki by contributing guides, tips, and documentation. Everyone's input is welcome.</p>
+              <Link className="button button--primary" to="/docs/how-to-contribute/" style={buttonStyle}>
+                How to Contribute
+              </Link>
+            </div>
           </div>
         </div>
       </div>
