@@ -28,7 +28,7 @@ function HomepageHeader() {
 
 function Features() {
   const cardStyle = {
-    border: '1px solid #e0e0e0',
+    border: 'none',
     borderRadius: '8px',
     padding: '2rem',
     marginBottom: '2rem',
@@ -72,6 +72,17 @@ function Features() {
               <p>Help improve this wiki by contributing guides, tips, and documentation. Everyone's input is welcome.</p>
               <Link className="button button--primary" to="/docs/how-to-contribute/" style={buttonStyle}>
                 How to Contribute
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="row" style={{marginTop: '2rem'}}>
+          <div className="col col--12">
+            <div style={cardStyle}>
+              <h3>Roadmap</h3>
+              <p>Track the development and progress of Tech Island V2 Wiki.</p>
+              <Link className="button button--primary" to="/docs/roadmap/" style={buttonStyle}>
+                View Roadmap
               </Link>
             </div>
           </div>
