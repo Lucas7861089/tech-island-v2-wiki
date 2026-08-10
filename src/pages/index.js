@@ -46,7 +46,7 @@ function Features() {
     <section className={styles.features}>
       <div className="container">
         <div style={{textAlign: 'center', marginBottom: '3rem'}}>
-          <img src="/img/logo.svg" alt="Tech Island V2 Wiki" style={{width: '150px', height: 'auto'}} />
+          <img src="/img/logo.png" alt="Tech Island V2 Wiki" style={{width: '150px', height: 'auto'}} />
         </div>
         <div className="row">
           <div className="col col--4">
