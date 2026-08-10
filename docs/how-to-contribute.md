@@ -18,7 +18,7 @@ Maintainers review and merge if approved.
 
 ## Video Tutorial
 
-Watch this [YouTube tutorial on how to contribute]([https://youtu.be/_Af_wb6UtCI](https://youtu.be/bLbzUc9xU6Q) created by nub (@the_rick_roller).
+Watch this [YouTube tutorial on how to contribute](https://youtu.be/bLbzUc9xU6Q) created by nub (@the_rick_roller).
 
 By contributing, you agree your changes are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
