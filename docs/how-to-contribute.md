@@ -16,6 +16,10 @@ We welcome contributions! Here's how to help improve this wiki.
 
 Maintainers review and merge if approved.
 
+## Video Tutorial
+
+Watch this [YouTube tutorial on how to contribute](https://youtu.be/_Af_wb6UtCI) created by nub (@the_rick_roller).
+
 By contributing, you agree your changes are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Join Our Community
