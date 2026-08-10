@@ -45,9 +45,6 @@ function Features() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div style={{textAlign: 'center', marginBottom: '3rem'}}>
-          <img src="/img/logo.png" alt="Tech Island V2 Wiki" style={{width: '150px', height: 'auto'}} />
-        </div>
         <div className="row">
           <div className="col col--4">
             <div style={cardStyle}>
