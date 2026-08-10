@@ -138,7 +138,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Tech Island V2 Wiki. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Tech Island V2 Wiki.`,
       },
       prism: {
         theme: prismThemes.github,
