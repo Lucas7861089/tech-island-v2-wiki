@@ -30,7 +30,6 @@ Track the development of Tech Island V2 Wiki.
 - FAQ section
 - Changelog section
 - Art gallery
-- Removing the Teletubbies
 
 ## Upcoming Features
 
