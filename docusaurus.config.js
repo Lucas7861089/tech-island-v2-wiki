@@ -76,7 +76,7 @@ const config = {
         title: 'Tech Island V2 Wiki',
         logo: {
           alt: 'Tech Island V2 Wiki Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {to: '/docs', label: 'Docs', position: 'left'},
