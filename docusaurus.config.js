@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Tech Island V2 Wiki',
-  tagline: 'Wiki for the roblox game Tech Island V2',
+  tagline: 'Wiki for the Roblox game Tech Island V2',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
