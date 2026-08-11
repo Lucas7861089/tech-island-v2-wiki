@@ -36,6 +36,18 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-search-local',
+      {
+        hashed: true,
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -166,7 +178,7 @@ export default config;
 //⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⢯⣷⣛⡾⣽⣿⢠⡏
 //⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢿⣿⣿⣿⣟⣾⣽⣻⣿⠇⣾⠇
 //⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣾⣿⣿⣿⣿⣿⣿⣿⣷⣾⡏⠀
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡾⣹⣿⣿⣿⡿⠯⣿⣿⣿⡿⠇⠀
+//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡾⣹⣿⣿⣿⡿⠯⣿⣿⣿⡿⠇⠀
 //⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⢾⣾⠃⢸⣿⣿⠀⠀⣿⢿⡿⠈⠀⠀
 //⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⢫⣿⠃⠀⢸⠿⣿⠀⠀⢹⠞⣧⠀⠀⠀
 //⠀⠀⠀⠀⠀⠀⠀⢀⡞⢡⡿⠁⠀⠀⠸⣿⣿⡀⠀⢸⣾⣿⠀⠀⠀
