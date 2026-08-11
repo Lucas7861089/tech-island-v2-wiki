@@ -20,6 +20,7 @@ Track the development of Tech Island V2 Wiki.
 - Expanding documentation
 - Community guidelines
 - Contributor guidelines
+- Add search functionality
 
 ## Planned
 
