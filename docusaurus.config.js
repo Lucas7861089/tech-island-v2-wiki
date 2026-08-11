@@ -1,12 +1,5 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,18 +7,13 @@ const config = {
   tagline: 'Wiki for the roblox game Tech Island V2',
   favicon: 'img/favicon.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true,
   },
 
-  // Set the production url of your site here
   url: 'https://tech-island-v2-wiki.pages.dev',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
   organizationName: 'Lucas7861089',
   projectName: 'tech-island-v2-wiki',
 
@@ -38,12 +26,11 @@ const config = {
 
   plugins: [
     [
-      '@docusaurus/plugin-search-local',
+      '@easyops-cn/docusaurus-search-local',
       {
         hashed: true,
         language: ['en'],
         highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
       },
     ],
   ],
@@ -161,31 +148,3 @@ const config = {
 };
 
 export default config;
-
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠤⠤⠤⠤⢄⣀⠀⠀⠀
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡾⠅⠀⠀⠀⠀⠀⠀⠀⠉⣷⠀
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣼⣃⡂⠀⠀⣀⣄⣤⣄⡀⠀⣿⠁
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⣿⣦⣾⣿⣿⡟⢿⣿⡓⣼⠀
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣄⢻⣿⠸⣿⣼⣿⣧⢸⣿⣻⡀
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⡷⡇⢀⠙⠿⡿⠿⠋⠀⢹⡇
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣦⣌⣡⣾⣇⣈⣙⣷⣶⣶⣶⣿⣿⡇
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣹⣿⣿⣛⣀⣽⣿⣿⣿⣿⡇
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢻⣿⣿⣿⣷⠟⢃⣼⣿⣿⣿⡇
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣤⣶⣿⡿⣟⣿⣿⡇
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣟⣿⣿⣿⣿⡛⣧⣛⣾⡏⢹⡇
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡟⣴⣛⢶⣯⢿⣿⡀⣇
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣻⣿⣿⢧⡿⣹⣞⣿⣿⠷⣿
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⢯⣷⣛⡾⣽⣿⢠⡏
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢿⣿⣿⣿⣟⣾⣽⣻⣿⠇⣾⠇
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣾⣿⣿⣿⣿⣿⣿⣿⣷⣾⡏⠀
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡾⣹⣿⣿⣿⡿⠯⣿⣿⣿⡿⠇⠀
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⢾⣾⠃⢸⣿⣿⠀⠀⣿⢿⡿⠈⠀⠀
-//⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⢫⣿⠃⠀⢸⠿⣿⠀⠀⢹⠞⣧⠀⠀⠀
-//⠀⠀⠀⠀⠀⠀⠀⢀⡞⢡⡿⠁⠀⠀⠸⣿⣿⡀⠀⢸⣾⣿⠀⠀⠀
-//⠀⠀⠀⠀⠀⠀⠀⢰⠋⢸⡟⠁⠀⠀⠀⠀⣿⣿⡇⠀⠘⣿⣿⠀⠀⠀
-//⠀⠀⠀⠀⠀⣰⠃⣲⡿⠀⠀⠀⠀⠀⠀⢿⣿⡇⠀⠀⢿⣿⠄⠀⠀
-//⠀⠀⠀⢀⣴⢇⣾⡿⠁⠀⠀⠀⠀⠀⠀⠸⡿⣷⠀⠀⢸⣿⡇⠀⠀
-//⠀⠀⣠⣾⣻⣿⡟⠁⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⡀⢀⣾⣿⣧⠀⠀
-//⢀⣴⣿⣿⣿⠟⠁⠀⠀⠀⣀⣤⠤⠆⢰⣿⣿⣿⣿⡟⠁⠹⣿⡄⠀
-//⠙⠿⢿⣿⡏⠀⠀⠀⢼⣻⣛⢉⣴⣶⠾⠟⠋⢹⣏⣤⣄⣄⣝⣧⠀
-//⠀⠀⠀⠈⠀⠀⠀⠀⠀⠈⠉⠉⠁⠀⠀⠀⠐⠾⠿⢵⠧⠿⠿⠛⠀
