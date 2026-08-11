@@ -24,13 +24,13 @@ Track the development of Tech Island V2 Wiki.
 - Responsive homepage design
 - Contributing cards layout
 - Custom CSS styling
+- search functionality
 
 ## In Progress
 
 - Expanding documentation
 - Community guidelines
 - Contributor guidelines
-- Add search functionality
 
 ## Planned
 
