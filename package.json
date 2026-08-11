@@ -1,5 +1,5 @@
 {
-  "name": "tech-islands-v2",
+  "name": "tech-island-v2-wiki",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -16,6 +16,7 @@
   "dependencies": {
     "@docusaurus/core": "3.10.2",
     "@docusaurus/faster": "3.10.2",
+    "@docusaurus/plugin-search-local": "^1.2.1",
     "@docusaurus/preset-classic": "3.10.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
